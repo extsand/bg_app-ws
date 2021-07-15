@@ -1,5 +1,8 @@
 # bg_app-ws
 
-## Node js app
+## Node js app 
+ it's simple Node js applicatio 
+ for devops pipeline Git-Jenkins
 
-### Demo app for jenkins
+
+ ### git-jenkins

@@ -1,0 +1,71 @@
+
+$black: #000501	
+	
+h1
+	color: $black
+	font-size: 6rem
+	font-weight: 600
+h2 
+	font-size: 3rem
+	
+.textColumn, .linksColumn
+	background-color: green
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+
+p
+	font-size: 1.4rem
+	text-align: center
+.first_line
+.second_line
+	
+
+.linksColumn
+	background-color: $black
+	display: flex
+	
+
+.controller
+	font-size: 1.5rem
+	cursor: pointer
+
+ul
+	li
+		list-style-type: none
+		text-align: center
+		color: #000
+		display: block
+		background-color: #73AB84
+		padding: 1rem 3rem
+		border-radius: 10px
+		
+		&:hover
+			box-shadow: 0px 0px 10px #79C7C5
+			background-color: #79C7C5
+
+.notification
+	margin-bottom: 1rem
+	position: relative
+	font-size: 1.3rem
+	opacity: 0
+	transition: all 0.4s ease-in
+	// text-transform: uppercase
+	&:before
+		content: ''
+		background-color: red
+		display: block
+		position: absolute
+		right: -19px
+		top: -19px
+		
+		width: 15px
+		height: 15px
+		border-radius: 50%
+.colorCode
+	font-size: 3rem
+	font-weight: 600
+	letter-spacing: 2px
+
+	
